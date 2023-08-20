@@ -13,13 +13,7 @@ function Slogan() {
                 <Description>
                     Curabitur ultricies risus non nunc bibendum, ac dignissim arcu vehicula. Donec dictum ultrices tortor. Aenean nec malesuada justo.
                 </Description>
-                <Description>
-                    Sed ac tellus ac odio condimentum bibendum eget ut arcu. Vivamus et odio ac elit laoreet dictum et sit amet leo. Morbi in justo sit amet massa fermentum facilisis ut at tortor. Duis vehicula aliquet turpis, eu venenatis ante hendrerit quis. Maecenas pharetra lacus nec sem volutpat, eget dignissim odio auctor. Aenean nec vulputate libero, et bibendum justo.
-                </Description>
             </Article>
-            <Article2>
-
-            </Article2>
         </Section>
     )
 }
@@ -27,21 +21,34 @@ export default Slogan;
 
 const Section = styled.section`
     width: 100vw;
-    background-color: #242424;
-    height: 75vh;
+    background-color: #2e2e2e;
+    height: 85vh;
     display: flex;
+    align-items:center;
     flex-direction: row;
     justify-content: center;
 `;
+
 const Article = styled.article`
-    width: 50vw;
+    width: 80vw;
     display: flex;
+    height: 60vh;
     flex-direction: column;
+    align-items: start;
     justify-content: center;
+    :nth-child(3){
+        margin-top: 0;
+    }
 `;
-const Article2 = styled.article`
-    width: 30vw;
+
+
+const Img = styled.img`
+    height: 25vh;
+    width: 25vw;
+    margin: 0 ;
+    margin-bottom:3vh;
 `;
+
 const H1 = styled.h1`
     font-size: 4rem;
     font-weight: bolder;
@@ -49,13 +56,10 @@ const H1 = styled.h1`
     margin: 0;
     color: #ebebeb;
 `;
-const Img = styled.img`
-    height: 20vh;
-    width: 25vw;
-`;
+
 const Description = styled.p`
     color: #ebebeb;
     height: max-content;
-    margin: 0;
-    width: 50vw;
+    margin: 1vh 0;
+    width: 60vw;
 `;

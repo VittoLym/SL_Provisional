@@ -35,7 +35,6 @@ const HeaderContainer = styled.header`
     flex-direction: row;
     justify-content: center;
     scrollbar-gutter: stable;
-    scroll-behavior: smooth;
 `;
 
 const H1 = styled.h1`
@@ -87,8 +86,9 @@ const Button = styled.button`
     color: #2e2e2e;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    width: 8vw;
     height: max-content;
-    padding: 2vh 3vw;
+    padding: 1vh 2vw;
     border: #2E2E2E solid 3px;
     border-radius: 8px;
     transition: all .5s ease;
