@@ -1,6 +1,9 @@
 import Header from './components/Header.jsx'
 import Slogan from './components/Slogan.jsx'
 import Projects from './components/Projects/Projects.jsx'
+import Prices from './components/Prices.jsx'
+import AboutUs from './components/AboutUs.jsx'
+import Footer from './components/Footer.jsx'
 import styled from 'styled-components'
 
 function App() {
